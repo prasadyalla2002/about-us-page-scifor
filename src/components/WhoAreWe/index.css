@@ -1,0 +1,71 @@
+.who-are-we-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.who-are-we-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #11a8f4;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .who-are-we-heading {
+    font-size: 35px;
+  }
+}
+
+.mission-vision-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .mission-vision-container {
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+}
+
+.mission-container {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 18px;
+  box-sizing: border-box;
+  text-align: left;
+  height: 250px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .mission-container {
+    width: 45%;
+    margin-right: 20px;
+  }
+}
+
+.mission-vision-heading {
+  color: #11a8f4;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .mission-vision-heading {
+    font-size: 25px;
+  }
+}
+
+.mission-vision-description {
+  font-size: 16px;
+  font-weight: 500;
+}

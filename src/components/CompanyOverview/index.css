@@ -1,0 +1,45 @@
+.overview-container {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #4be1f4, #ed19f8);
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.about-us-heading {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2d3131;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-heading {
+    font-size: 35px;
+  }
+}
+
+.about-us-container {
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-container {
+    width: 45%;
+    align-self: flex-end;
+  }
+}
+
+.about-us-description {
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  width: 90%;
+}
