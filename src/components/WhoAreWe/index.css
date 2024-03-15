@@ -5,6 +5,8 @@
   align-items: center;
   box-sizing: border-box;
   padding: 20px;
+  width: 100vw;
+  background-color: #eef4f6;
 }
 
 .who-are-we-heading {
@@ -16,7 +18,7 @@
 
 @media screen and (min-width: 768px) {
   .who-are-we-heading {
-    font-size: 35px;
+    font-size: 38px;
   }
 }
 
@@ -25,6 +27,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
@@ -32,7 +35,7 @@
     width: 90%;
     flex-direction: row;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
   }
 }
@@ -43,14 +46,20 @@
   padding: 18px;
   box-sizing: border-box;
   text-align: left;
-  height: 250px;
   border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+
+.mission-container:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (min-width: 768px) {
   .mission-container {
     width: 45%;
     margin-right: 20px;
+    height: 250px;
   }
 }
 
